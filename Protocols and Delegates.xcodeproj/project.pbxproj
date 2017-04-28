@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					84B55B511EB31B9400E9FC5C = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GB5JX3BE5S;
 						ProvisioningStyle = Automatic;
 					};
 					84B55B651EB31B9500E9FC5C = {
@@ -418,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GB5JX3BE5S;
 				INFOPLIST_FILE = "Protocols and Delegates/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "admin.com.Protocols-and-Delegates";
@@ -430,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GB5JX3BE5S;
 				INFOPLIST_FILE = "Protocols and Delegates/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "admin.com.Protocols-and-Delegates";

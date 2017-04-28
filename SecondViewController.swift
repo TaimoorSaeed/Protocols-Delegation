@@ -15,7 +15,6 @@ protocol DataEnteredDelegate{
 class SecondViewController: UIViewController {
 
     @IBOutlet weak var dataTextFeild: UITextField! = UITextField()
-    
     var delegate: DataEnteredDelegate? = nil
     
     override func viewDidLoad() {
@@ -31,6 +30,4 @@ class SecondViewController: UIViewController {
             self.navigationController?.popViewController(animated: true)
         }
     }
-   
-
 }

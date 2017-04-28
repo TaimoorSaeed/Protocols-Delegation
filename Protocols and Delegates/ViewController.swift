@@ -24,18 +24,13 @@ class ViewController: UIViewController, DataEnteredDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showSecondVC"{
             let secondVC: SecondViewController = segue.destination as! SecondViewController
-            
             secondVC.delegate = self
         }
-        
     }
 
     override func didReceiveMemoryWarning() {
-        
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
